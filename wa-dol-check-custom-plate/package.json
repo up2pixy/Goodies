@@ -1,0 +1,16 @@
+{
+  "name": "wa-plate-checker",
+  "version": "1.0.0",
+  "author": {
+    "name": "Michael Chen"
+  },
+  "license": "MIT",
+  "description": "Check WA DOL personalized license plate availability",
+  "main": "check-plates.js",
+  "scripts": {
+    "start": "node check-plates.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.40.0"
+  }
+}
